@@ -56,6 +56,10 @@ p{
     line-height: 1.5em;
 }
 
+.bg-gray{
+    background-color: #f6f6f6;   
+}
+
 /* Header */
 
 header{
