@@ -10,7 +10,8 @@ body{
     max-width: 1680px;
     margin: auto;
     font-family: 'Lato', sans-serif;
-    font-weight: 700    ;
+    font-weight: 700;
+    color: #23272a;
 } 
 
 .clearfix::after{
@@ -23,6 +24,10 @@ body{
     float: left;
 }
 
+.float-right{
+    float: right;
+}
+
 .btn{
     text-decoration: none;
     border: none;
@@ -31,22 +36,24 @@ body{
 }
 
 .white-btn{
-    color: #000;
+    color: #23272a;
     background-color: white;
 }
 
 .black-btn{
     color: #fff;
-    background-color: #000;
+    background-color: #23272a;
 }
 
 h2{
     font-size: 50px;
-    font-weight: 900;;
+    font-weight: 900;
+    margin-bottom: 30px;
 }
 
 p{
     font-size: 20px;
+    line-height: 1.5em;
 }
 
 /* Header */
@@ -65,6 +72,11 @@ header{
 .container .logo{
     width: 20%;
     padding: 6px;
+}
+
+.logo > img{
+    object-fit: contain;
+    height: 37px;
 }
 
 header nav{
@@ -97,11 +109,15 @@ header .acc-button{
     height: 545px;;
     background-image: url("../img/jumbo.png");
     background-size: cover;
+}
+
+.hero > .container{
     position: relative;
+    height: 100%;
 }
 
 .hero .text{
-    width: 45%;
+    width: 64%;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -122,3 +138,26 @@ header .acc-button{
     margin: 0 15px;
     font-size: 21px;
 }
+
+/* Sections */
+
+.padd-section{
+    padding-top: 150px;
+    padding-bottom: 130px;
+}
+
+.text-blk{
+    width: 30%;
+}
+
+.image{
+    width: 55%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
