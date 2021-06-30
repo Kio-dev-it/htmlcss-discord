@@ -211,7 +211,6 @@ header .acc-button{
 /* Footer */
 footer{
     background-color: #23272a;
-    height: 800px;
     color: #fff;
     line-height: 2em;
 }
@@ -257,4 +256,8 @@ footer hr{
     margin-top: 15px;
     margin-right: 20px;
     font-size: 22px;
+}
+
+.footer-bottom{
+    padding: 35px 0 90px 0;
 }
