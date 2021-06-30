@@ -207,3 +207,54 @@ header .acc-button{
 .reliability{
     padding-bottom: 40px;
 }
+
+/* Footer */
+footer{
+    background-color: #23272a;
+    height: 800px;
+    color: #fff;
+    line-height: 2em;
+}
+
+.footer-top{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.social{
+    width: 35%;
+}
+
+.column{
+    width: calc(65% / 4);
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer h3{
+    color: #8ea1e1;
+    font-weight: 900;
+    padding-right: 140px;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+.column li:first-child{
+    color: #8ea1e1; 
+    font-weight: 700;
+}
+
+.flag{
+    height: 18px;
+}
+
+footer hr{
+    border: 1px solid #4a5882;
+}
+
+.footer-top i{
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 22px;
+}
