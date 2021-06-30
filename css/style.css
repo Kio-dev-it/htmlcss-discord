@@ -45,10 +45,20 @@ body{
     background-color: #23272a;
 }
 
+.purple-btn{
+    color: #fff;
+    background-color: #8ea1e1;
+}
+
 h2{
     font-size: 50px;
     font-weight: 900;
     margin-bottom: 30px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
 }
 
 p{
@@ -165,3 +175,35 @@ header .acc-button{
 
 }
 
+.content-reliability, .adventure{
+    text-align: center;
+}
+
+.content-reliability > p{
+    width: 80%;
+    margin: auto;
+}
+
+.content-reliability>img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.adventure{
+    background-image: url("../img/stars.svg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 130px;
+}
+
+.adventure > h3{
+    padding: 40px 0;
+}
+
+.adventure>.purple-btn{
+    font-size: 20px;
+}
+
+.reliability{
+    padding-bottom: 40px;
+}
