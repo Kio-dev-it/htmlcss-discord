@@ -10,6 +10,7 @@ body{
     max-width: 1680px;
     margin: auto;
     font-family: 'Lato', sans-serif;
+    font-weight: 700    ;
 } 
 
 .clearfix::after{
@@ -34,10 +35,24 @@ body{
     background-color: white;
 }
 
+.black-btn{
+    color: #fff;
+    background-color: #000;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 900;;
+}
+
+p{
+    font-size: 20px;
+}
+
 /* Header */
 
 header{
-    background-color: #3161e0;
+    background-color: #2a5ee8;
     padding: 25px 0;
 }
 
@@ -73,4 +88,37 @@ header .acc-button{
     padding: 6px;
     width: 20%;
     text-align: right;
+}
+
+
+/* Hero */
+
+.hero{
+    height: 545px;;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    position: relative;
+}
+
+.hero .text{
+    width: 45%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.hero h2{
+    margin-bottom: 40px;
+}
+
+.hero p{
+    margin-bottom: 30px;
+}
+
+.hero button{
+    margin: 0 15px;
+    font-size: 21px;
 }
