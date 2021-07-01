@@ -7,7 +7,7 @@
 
 /*Common*/
 body{
-    max-width: 1680px;
+    /* max-width: 1680px; */
     margin: auto;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -18,6 +18,12 @@ body{
     content: "";
     display: table;
     clear: both;
+}
+
+.container{
+    width: 70%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .float-left{
@@ -33,6 +39,7 @@ body{
     border: none;
     padding: 0.7em 1.7em;
     border-radius: 2em;
+    font-weight: 700;
 }
 
 .white-btn{
@@ -74,44 +81,35 @@ p{
 
 header{
     background-color: #2a5ee8;
-    padding: 25px 0;
-}
-
-.container{
-    width: 70%;
-    margin: auto;
+    height: 70px;
+    line-height: 70px;
 }
 
 
 .container .logo{
     width: 20%;
-    padding: 6px;
 }
 
 .logo > img{
-    object-fit: contain;
-    height: 37px;
+    vertical-align: middle;
 }
 
 header nav{
-    margin-top: 8px;
     width: 60%;
     text-align: center;
 }
 
 header nav li{
     display: inline-block;
+    margin: 0 20px;
 }
 
 header nav a{
     text-decoration: none;
     color: #fff;
-    margin: 0 20px;
-    padding: 5px
 }
 
-header .acc-button{
-    padding: 6px;
+header .log-button{
     width: 20%;
     text-align: right;
 }
@@ -123,6 +121,7 @@ header .acc-button{
     height: 545px;;
     background-image: url("../img/jumbo.png");
     background-size: cover;
+    background-position: center;
 }
 
 .hero > .container{
