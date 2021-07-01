@@ -261,3 +261,16 @@ footer hr{
 .footer-bottom{
     padding: 35px 0 90px 0;
 }
+
+
+/* Wave */
+
+.wave{
+    filter: invert(99%) sepia(22%) saturate(103%) hue-rotate(289deg) brightness(113%) contrast(93%);
+    background-image: url("../img/wave.svg");
+    height: 120px;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
