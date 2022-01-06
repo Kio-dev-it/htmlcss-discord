@@ -1,4 +1,4 @@
-# html-discord
+# htmlcss-discord
 
 _IT Version_
 
